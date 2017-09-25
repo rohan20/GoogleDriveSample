@@ -6,7 +6,18 @@
     android:layout_height="match_parent"
     tools:context="com.rohantaneja.googledrivesample.MainActivity">
 
+
+    <Button
+        android:id="@+id/b_get_files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_files_from_drive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
+        android:id="@+id/tv_file_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"

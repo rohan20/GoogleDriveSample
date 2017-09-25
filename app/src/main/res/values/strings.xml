@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GoogleDriveSample</string>
+    <string name="get_files_from_drive">get files from drive</string>
 </resources>
